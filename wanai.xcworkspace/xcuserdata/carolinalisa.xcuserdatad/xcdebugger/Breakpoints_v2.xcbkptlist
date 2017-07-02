@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "wanai/FollowViewController.swift"
+            timestampString = "520547587.054537"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "FollowViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "wanai.FollowViewController.__deallocating_deinit"
+                  moduleName = "wanai"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/carolinalisa/Desktop/Wanai-finalproject/wanai-master/wanai/FollowViewController.swift"
+                  timestampString = "520546032.081212"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "wanai.FollowViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; wanai.FollowViewController"
+                  moduleName = "wanai"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/carolinalisa/Desktop/Wanai-finalproject/wanai-master/wanai/FollowViewController.swift"
+                  timestampString = "520546032.085155"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "70">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "wanai.FollowViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; wanai.FollowViewController"
+                  moduleName = "wanai"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/carolinalisa/Desktop/Wanai-finalproject/wanai-master/wanai/FollowViewController.swift"
+                  timestampString = "520546032.08896"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "wanai.FollowViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;wanai.FollowViewController&gt;"
+                  moduleName = "wanai"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/carolinalisa/Desktop/Wanai-finalproject/wanai-master/wanai/FollowViewController.swift"
+                  timestampString = "520546032.091465"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "wanai.FollowViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;wanai.FollowViewController&gt;"
+                  moduleName = "wanai"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/carolinalisa/Desktop/Wanai-finalproject/wanai-master/wanai/FollowViewController.swift"
+                  timestampString = "520546032.09426"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "31">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "wanai/FollowViewController.swift"
+            timestampString = "520681638.834302"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "logoutButtonClicked(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

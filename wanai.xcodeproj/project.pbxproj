@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		360D6E1E1F02D3C30006ACD8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 360D6E1D1F02D3C30006ACD8 /* GoogleService-Info.plist */; };
+		360D6E221F02D8630006ACD8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360D6E211F02D8630006ACD8 /* LoginViewController.swift */; };
+		360D6E261F02EBF70006ACD8 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360D6E251F02EBF70006ACD8 /* CameraViewController.swift */; };
+		360D6E2A1F02F5F10006ACD8 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360D6E291F02F5F10006ACD8 /* PostModel.swift */; };
+		360D6E2C1F0397180006ACD8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360D6E2B1F0397180006ACD8 /* HomeViewController.swift */; };
+		360D6E2E1F0397360006ACD8 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360D6E2D1F0397360006ACD8 /* HomeTableViewCell.swift */; };
+		361002541F02D31E006C91B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361002531F02D31E006C91B8 /* AppDelegate.swift */; };
+		361002581F02D31E006C91B8 /* FollowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361002571F02D31E006C91B8 /* FollowViewController.swift */; };
+		3610025B1F02D31E006C91B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 361002591F02D31E006C91B8 /* Main.storyboard */; };
+		3610025D1F02D31E006C91B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3610025C1F02D31E006C91B8 /* Assets.xcassets */; };
+		361002601F02D31E006C91B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3610025E1F02D31E006C91B8 /* LaunchScreen.storyboard */; };
+		839435FDB3654CC040574BFC /* Pods_wanai.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B62BF56F59EF5BADE078F85 /* Pods_wanai.framework */; };
+		E06AC2201F06D81E003B8B9F /* FollowViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06AC21F1F06D81E003B8B9F /* FollowViewCell.swift */; };
+		E06AC2221F06E2B8003B8B9F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06AC2211F06E2B8003B8B9F /* User.swift */; };
+		E094E8C31F08E57F007C7F49 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = E094E8C11F08E57F007C7F49 /* OFL.txt */; };
+		E094E8C41F08E57F007C7F49 /* Pacifico.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E094E8C21F08E57F007C7F49 /* Pacifico.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		360D6E1D1F02D3C30006ACD8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		360D6E211F02D8630006ACD8 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		360D6E251F02EBF70006ACD8 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		360D6E291F02F5F10006ACD8 /* PostModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		360D6E2B1F0397180006ACD8 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		360D6E2D1F0397360006ACD8 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		361002501F02D31D006C91B8 /* wanai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wanai.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		361002531F02D31E006C91B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		361002571F02D31E006C91B8 /* FollowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowViewController.swift; sourceTree = "<group>"; };
+		3610025A1F02D31E006C91B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3610025C1F02D31E006C91B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3610025F1F02D31E006C91B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		361002611F02D31E006C91B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B62BF56F59EF5BADE078F85 /* Pods_wanai.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wanai.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6281CE005794C66189D0D83 /* Pods-wanai.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wanai.release.xcconfig"; path = "Pods/Target Support Files/Pods-wanai/Pods-wanai.release.xcconfig"; sourceTree = "<group>"; };
+		E06AC21F1F06D81E003B8B9F /* FollowViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowViewCell.swift; sourceTree = "<group>"; };
+		E06AC2211F06E2B8003B8B9F /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E094E8C11F08E57F007C7F49 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		E094E8C21F08E57F007C7F49 /* Pacifico.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pacifico.ttf; sourceTree = "<group>"; };
+		EDECD0018C15293C1B1E8C85 /* Pods-wanai.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wanai.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wanai/Pods-wanai.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3610024D1F02D31D006C91B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839435FDB3654CC040574BFC /* Pods_wanai.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28C963F69A149DD8F7AF54C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EDECD0018C15293C1B1E8C85 /* Pods-wanai.debug.xcconfig */,
+				A6281CE005794C66189D0D83 /* Pods-wanai.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		361002471F02D31D006C91B8 = {
+			isa = PBXGroup;
+			children = (
+				361002521F02D31D006C91B8 /* wanai */,
+				361002511F02D31D006C91B8 /* Products */,
+				28C963F69A149DD8F7AF54C7 /* Pods */,
+				5609B9CD0B2272AA1FFEE633 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		361002511F02D31D006C91B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				361002501F02D31D006C91B8 /* wanai.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		361002521F02D31D006C91B8 /* wanai */ = {
+			isa = PBXGroup;
+			children = (
+				E094E8C01F08E57F007C7F49 /* pacifico */,
+				361002531F02D31E006C91B8 /* AppDelegate.swift */,
+				360D6E211F02D8630006ACD8 /* LoginViewController.swift */,
+				360D6E2B1F0397180006ACD8 /* HomeViewController.swift */,
+				360D6E2D1F0397360006ACD8 /* HomeTableViewCell.swift */,
+				361002571F02D31E006C91B8 /* FollowViewController.swift */,
+				E06AC21F1F06D81E003B8B9F /* FollowViewCell.swift */,
+				360D6E251F02EBF70006ACD8 /* CameraViewController.swift */,
+				360D6E291F02F5F10006ACD8 /* PostModel.swift */,
+				361002591F02D31E006C91B8 /* Main.storyboard */,
+				3610025C1F02D31E006C91B8 /* Assets.xcassets */,
+				3610025E1F02D31E006C91B8 /* LaunchScreen.storyboard */,
+				361002611F02D31E006C91B8 /* Info.plist */,
+				360D6E1D1F02D3C30006ACD8 /* GoogleService-Info.plist */,
+				E06AC2211F06E2B8003B8B9F /* User.swift */,
+			);
+			path = wanai;
+			sourceTree = "<group>";
+		};
+		5609B9CD0B2272AA1FFEE633 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B62BF56F59EF5BADE078F85 /* Pods_wanai.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E094E8C01F08E57F007C7F49 /* pacifico */ = {
+			isa = PBXGroup;
+			children = (
+				E094E8C11F08E57F007C7F49 /* OFL.txt */,
+				E094E8C21F08E57F007C7F49 /* Pacifico.ttf */,
+			);
+			path = pacifico;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3610024F1F02D31D006C91B8 /* wanai */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 361002641F02D31E006C91B8 /* Build configuration list for PBXNativeTarget "wanai" */;
+			buildPhases = (
+				C6572EF09B568E16586B4BFA /* [CP] Check Pods Manifest.lock */,
+				3610024C1F02D31D006C91B8 /* Sources */,
+				3610024D1F02D31D006C91B8 /* Frameworks */,
+				3610024E1F02D31D006C91B8 /* Resources */,
+				F5F90C84DC28D00EDD9CF640 /* [CP] Embed Pods Frameworks */,
+				EF1CC67626C9F7A08E721AD6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wanai;
+			productName = wanai;
+			productReference = 361002501F02D31D006C91B8 /* wanai.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		361002481F02D31D006C91B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = BTS;
+				TargetAttributes = {
+					3610024F1F02D31D006C91B8 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 5L9XP2PZ59;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3610024B1F02D31D006C91B8 /* Build configuration list for PBXProject "wanai" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 361002471F02D31D006C91B8;
+			productRefGroup = 361002511F02D31D006C91B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3610024F1F02D31D006C91B8 /* wanai */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3610024E1F02D31D006C91B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E094E8C31F08E57F007C7F49 /* OFL.txt in Resources */,
+				361002601F02D31E006C91B8 /* LaunchScreen.storyboard in Resources */,
+				E094E8C41F08E57F007C7F49 /* Pacifico.ttf in Resources */,
+				3610025D1F02D31E006C91B8 /* Assets.xcassets in Resources */,
+				3610025B1F02D31E006C91B8 /* Main.storyboard in Resources */,
+				360D6E1E1F02D3C30006ACD8 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C6572EF09B568E16586B4BFA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EF1CC67626C9F7A08E721AD6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wanai/Pods-wanai-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5F90C84DC28D00EDD9CF640 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wanai/Pods-wanai-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3610024C1F02D31D006C91B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				360D6E221F02D8630006ACD8 /* LoginViewController.swift in Sources */,
+				360D6E261F02EBF70006ACD8 /* CameraViewController.swift in Sources */,
+				360D6E2E1F0397360006ACD8 /* HomeTableViewCell.swift in Sources */,
+				360D6E2A1F02F5F10006ACD8 /* PostModel.swift in Sources */,
+				361002581F02D31E006C91B8 /* FollowViewController.swift in Sources */,
+				E06AC2221F06E2B8003B8B9F /* User.swift in Sources */,
+				E06AC2201F06D81E003B8B9F /* FollowViewCell.swift in Sources */,
+				361002541F02D31E006C91B8 /* AppDelegate.swift in Sources */,
+				360D6E2C1F0397180006ACD8 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		361002591F02D31E006C91B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3610025A1F02D31E006C91B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3610025E1F02D31E006C91B8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3610025F1F02D31E006C91B8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		361002621F02D31E006C91B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		361002631F02D31E006C91B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		361002651F02D31E006C91B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDECD0018C15293C1B1E8C85 /* Pods-wanai.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5L9XP2PZ59;
+				INFOPLIST_FILE = wanai/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tech.bts.wanai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		361002661F02D31E006C91B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6281CE005794C66189D0D83 /* Pods-wanai.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5L9XP2PZ59;
+				INFOPLIST_FILE = wanai/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tech.bts.wanai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3610024B1F02D31D006C91B8 /* Build configuration list for PBXProject "wanai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				361002621F02D31E006C91B8 /* Debug */,
+				361002631F02D31E006C91B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		361002641F02D31E006C91B8 /* Build configuration list for PBXNativeTarget "wanai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				361002651F02D31E006C91B8 /* Debug */,
+				361002661F02D31E006C91B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 361002481F02D31D006C91B8 /* Project object */;
+}
